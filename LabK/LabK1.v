@@ -1,4 +1,4 @@
-module LabK1;
+module labK;
    reg [31:0] x;
    reg        one;
    reg [1:0]  two;
