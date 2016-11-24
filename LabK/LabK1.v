@@ -4,7 +4,7 @@ module LabK1;
    initial
      begin
         $display("time = %5d, x = %b", $time, x);
-        x = 0;
+        x = 32'hffff0000;
         $display("time = %5d, x = %b", $time, x);
         x = x + 2;
         $display("time = %5d, x = %b", $time, x);
