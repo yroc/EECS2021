@@ -3,11 +3,11 @@ module LabK1;
 
    initial
      begin
-        $display($time, " %h", x);
+        $display("%5d", $time, " %h", x);
         x = 0;
-        $display($time, " %h", x);
+        $display("%5d", $time, " %h", x);
         x = x + 2;
-        $display($time, " %h", x);
+        $display("%5d", $time, " %h", x);
         $finish;
      end
 endmodule // LabK1
